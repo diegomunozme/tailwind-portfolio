@@ -1,13 +1,14 @@
 import logo from "./logo.svg";
-import "./App.css";
 import Header from "./Components/Header";
+import Switcher from "./Components/Switcher";
 
-function App() {
+const App = () => {
   return (
-    <div>
-     <Header/> 
+    <div className="min-h-screen flex flex-col items center transition duration-200  bg-[#f4e5cc] dark:bg-gray-800">
+      <Header />
+      <Switcher />
     </div>
   );
-}
+};
 
 export default App;
