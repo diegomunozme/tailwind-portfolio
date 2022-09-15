@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import useDarkSide from "./useDarkSide";
 const Switcher = () => {
-  const [colorTheme, setColortheme] = useDarkSide();
+  const [colorTheme, setTheme] = useDarkSide();
   const [darkSide, setDarkSide] = useState(colorTheme ==="light" ? true : false)
   
   
@@ -13,7 +13,7 @@ const Switcher = () => {
 
   return (
     <div>
-        <div className="m-16 flex flex-col items-center">
+        <div className="flex flex-col items-center">
            <DarkModeSwitch 
            checked={darkSide}
            size={30} 
