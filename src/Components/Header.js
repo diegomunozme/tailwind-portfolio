@@ -8,20 +8,18 @@ const Header = () => {
       <div className="flex flex-row px- w-1/2 place-content-center">
         <div className="flex-auto font-mono text-xl font-bold hover:underline w-1 dark:text-gray-300">
           <Link to="/">
-            <h1>
-              Diego Munoz
-            </h1>
-          </Link>
-        </div>
-        <div className="flex-auto hover:underline w-1 dark:text-gray-300"> 
-          <Link to="/Experience">
-            <div>
-              Experience
-            </div>
+            <h1>Diego Munoz</h1>
           </Link>
         </div>
         <div className="flex-auto hover:underline w-1 dark:text-gray-300">
-          Cool Things
+          <Link to="/Experience">
+            <div>Experience</div>
+          </Link>
+        </div>
+        <div className="flex-auto hover:underline w-1 dark:text-gray-300">
+          <Link to="/CoolThings">
+            <div>Cool Things</div>
+          </Link>
         </div>
         <Switcher />
       </div>
