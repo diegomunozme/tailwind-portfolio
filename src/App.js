@@ -4,7 +4,7 @@ import Card from "./Components/UI/Card";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import Experience from "./Pages/Experience";
-import Stuff from "./Pages/Stuff";
+import Stuff from "./Pages/CoolThings.js";
 
 const App = () => {
   return (
