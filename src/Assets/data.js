@@ -1,4 +1,4 @@
-export default data = [
+export const stuffAboutMe = [
     {
         id: 1,
         text: "Data Analysis Engineer 2"

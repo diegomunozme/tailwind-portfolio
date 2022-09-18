@@ -7,16 +7,29 @@ module.exports = {
         "fade-in-left": {
           "0%": {
             opacity: "0",
-            transform: "translatex(-150vw)",
+            transform: "translatex(-100vw)",
           },
           "100%": {
             opacity: "1",
             transform: "translateY(0)",
           },
         },
+        "fade-in-left-two": {
+          "0%": {
+            opacity: "0",
+            transform: "translatex(-150vw)",
+            'animation-delay': "500ms"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+            'animation-delay': "500ms"
+          },
+        },
       },
       animation: {
-        "fade-in-left": "fade-in-left 0.9s ease-out",
+        "fade-in-left": "fade-in-left 1s ease-out",
+        "fade-in-left-two" : "fade-in-left-two 1.8s ease-out"
       },
 
       backgroundColor: {
