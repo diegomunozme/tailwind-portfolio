@@ -1,37 +1,36 @@
 import React from "react";
-import Hobbiton from "../Assets/Hobbiton.gif";
+import Hobbiton from "../Assets/mario.jpg";
 import BJJ from "../Assets/Bjj.jpg";
+import CoolThings from "./CoolThings";
+import Timeline from "../Components/Timeline";
 
 const Landing = () => {
   return (
-    <div className="grid grid-cols-10 place-items-center  dark:text-gray-300">
-      <img className=" col-start-4 col-span-4 h-34 rounded-xl mt-9" src={Hobbiton} />
-      <div className="flex w-full col-start-4 col-span-4 p-3 mt-5 rounded-lg bg-[#ffffff40]">
-        <div className="flex justify-start">
-          Greetings!!
-          <h1>Name's Diego, currently I'm a:</h1>
-          <ul className="flex justify-start  list-disc mx-2">
-            <li className="mt-5">
-              Data Analysis Engineer 2 at General Atomics
-            </li>
-            <li> Freelance Developer in my freetime</li>
-            <li> Exhibition Kickboxer in my freetime freetime </li>
-          </ul>
-        </div>
-        <img className="flex justify-end h-24 border border-gray-300 rounded-lg" src={BJJ} />
+    <div className=" grid grid-cols-10 gap-4 h-fi dark:text-gray-300">
+      <div className=" col-start-3 col-span-6 ">
+        <img src={Hobbiton} className="rounded-xl mt-9" />
+        <h1 class="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          Diego Munoz
+        </h1>
+        <CoolThings />
       </div>
-      <div className=" col-start-4 col-span-4">
-        <div className="mt-5">
-          <h1 className=" text-3xl bold">Work</h1>
+      {/* <CoolThings /> */}
+      <div className=" flex col-start-2 col-span-8 mt-36">
+        <div>
+          <div className="mt-5">
+            <h1 className=" text-3xl bold">About Me</h1>
+          </div>
+          <div className="mt-5 text-lg">
+            <p>
+              Through the wide variety of experiences I have such as: improving
+              the manufacturing process of UAVs in uber-competitive billion
+              dollar industries, raising $50,000 for quantitative trading, and
+              political startups, developing my own SAAS I am confident I have
+              the skillset your team needs.
+            </p>
+          </div>
         </div>
-        <div className="mt-5">
-          <p>
-            From improving the manufacturing process of UAVs in uber-competitive
-            billion dollar industries, raising $50,000 for quantitative trading,
-            and political startups, developing my own SAAS, and even training
-            with World Champion Muay Thai Fighters. I make sure that the Diego
-          </p>
-        </div>  
+        <Timeline />
       </div>
     </div>
   );

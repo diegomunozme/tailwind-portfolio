@@ -3,11 +3,14 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        mario: "url('./Assets/mario.jpg')",
+      },
       keyframes: {
         "fade-in-left": {
           "0%": {
             opacity: "0",
-            transform: "translatex(-100vw)",
+            transform: "translatex(-150vw)",
           },
           "100%": {
             opacity: "1",
@@ -17,19 +20,20 @@ module.exports = {
         "fade-in-left-two": {
           "0%": {
             opacity: "0",
-            transform: "translatex(-150vw)",
-            'animation-delay': "500ms"
+            transform: "translatex(-200vw)",
+            "animation-delay": "500ms",
           },
           "100%": {
             opacity: "1",
             transform: "translateY(0)",
-            'animation-delay': "500ms"
+            "animation-delay": "500ms",
           },
         },
       },
       animation: {
-        "fade-in-left": "fade-in-left 1s ease-out",
-        "fade-in-left-two" : "fade-in-left-two 1.8s ease-out"
+        "fade-in-left": "fade-in-left .5s ease-out",
+        "fade-in-left-two": "fade-in-left 1s ease-out",
+        "fade-in-left-three": "fade-in-left 1.5s ease-out",
       },
 
       backgroundColor: {

@@ -4,7 +4,7 @@ import Card from "./Components/UI/Card";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./Pages/Landing";
 import Experience from "./Pages/Experience";
-import Stuff from "./Pages/CoolThings.js";
+import CoolThings from "./Pages/CoolThings.js";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route exact path="/Experience" element={<Experience />} />
-          <Route exact path="/CoolThings" element={<Stuff />} />
+          <Route exact path="/CoolThings" element={<CoolThings />} />
         </Routes>
       </Router>
     </div>
