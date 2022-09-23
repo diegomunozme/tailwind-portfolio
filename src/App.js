@@ -2,9 +2,10 @@ import Header from "./Components/Header";
 import Switcher from "./Components/Switcher";
 import Card from "./Components/UI/Card";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Landing from "./Pages/Landing";
-import Experience from "./Pages/Experience";
+import Landing from "./Pages/Landing/Landing";
+import Experience from "./Pages/Experience/Experience";
 import CoolThings from "./Pages/CoolThings.js";
+import Footer from "./Pages/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route exact path="/Experience" element={<Experience />} />
           <Route exact path="/CoolThings" element={<CoolThings />} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

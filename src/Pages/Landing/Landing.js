@@ -1,18 +1,18 @@
 import React from "react";
-import Hobbiton from "../Assets/mario.jpg";
-import BJJ from "../Assets/Bjj.jpg";
-import CoolThings from "./CoolThings";
-import Timeline from "../Components/Timeline";
+import Hobbiton from "../../Assets/mario.jpg";
+
+import LandingSlides from "./LandingSlides";
+import Timeline from "../../Components/Timeline";
 
 const Landing = () => {
   return (
-    <div className=" grid grid-cols-10 gap-4 h-fi dark:text-gray-300">
-      <div className=" col-start-3 col-span-6 ">
-        <img src={Hobbiton} className="rounded-xl mt-9" />
+    <div className=" grid grid-cols-10 gap-4  dark:text-gray-300">
+      <div className=" col-start-1 col-span-10 ">
+        <img src={Hobbiton} className="rounded-xl h-max" />
         <h1 class="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           Diego Munoz
         </h1>
-        <CoolThings />
+        <LandingSlides />
       </div>
       {/* <CoolThings /> */}
       <div className=" flex col-start-2 col-span-8 mt-36">

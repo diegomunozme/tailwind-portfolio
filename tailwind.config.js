@@ -31,9 +31,9 @@ module.exports = {
         },
       },
       animation: {
-        "fade-in-left": "fade-in-left .5s ease-out",
-        "fade-in-left-two": "fade-in-left 1s ease-out",
-        "fade-in-left-three": "fade-in-left 1.5s ease-out",
+        "fade-in-left": "fade-in-left 1.5s ease-out",
+        "fade-in-left-two": "fade-in-left-two 2s ease-out",
+        "fade-in-left-three": "fade-in-left 2.5s ease-out",
       },
 
       backgroundColor: {

@@ -6,9 +6,9 @@ const Timeline = () => {
     <span className="col-start-5 col-span-5 ">
       <ol class="items-center flex flex-wrap">
         {stuffAboutMe.map((item) => (
-          <li class=" mb-6 sm:mb-0 basis-1/3 h-56">
-            <div class="flex items-center">
-              <div class="flex z-10 justify-center items-center w-6 h-6 bg-transparent rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+          <li class=" mb-6 sm:mb-0 basis-1/3 h-64 cursor-pointer hover:brightness-75 border-transparent border-2">
+            <div class="flex items-center ">
+              <div class="flex z-10  justify-center items-center w-6 h-6 bg-transparent rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                 <svg
                   aria-hidden="true"
                   class="w-3 h-3 text-blue-600 dark:text-blue-300"
@@ -25,7 +25,7 @@ const Timeline = () => {
               </div>
               <div class="hidden sm:flex w-full bg-gray-700 h-0.5 dark:bg-gray-700"></div>
             </div>
-            <div class="mt-3 sm:pr-8">
+            <div class="mt-3 sm:pr-8 ">
               <h3 class=" text-base font-semibold text-gray-900 dark:text-white">
                 {item.title}
               </h3>
