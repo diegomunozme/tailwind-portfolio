@@ -3,13 +3,16 @@ export const stuffAboutMe = [
   {
     id: 8,
     title: "Freelance Fullstack Developer",
-    subTitle: "Remote, 2022-Present",
+    company:"Freelance",
+    // subTitle: "Remote, 2022-Present",
     info: "React, NodeJs, Solidity, Firebase",
   },
   {
     id: 7,
     title: "Data Analysis Engineer",
+    // company:"General Atomics",
     subTitle: "General Atomics, Sept 2021-Present",
+
     info: "Python, SQL, SMSS, PowerBI, Machine Learning",
   },
   {
@@ -48,7 +51,7 @@ export const SoftwareProjects = [
   {
     id: 1,
     title: "Hashback.io",
-    timeline: "April-Present",
+    timeline: "Freelance, April-Present",
     responsabilities:
       "Developing an affiliate marketing full stack website, as well as an ethereum based staking pool where users can stake ETH and be rewarded in ETH as well as a Hashback token",
     ToolsUsed: "Node, React, Firebase, Solidity",
@@ -58,20 +61,20 @@ export const SoftwareProjects = [
   {
     id: 2,
     title: "OmniaMercado",
-    timeline: "June-Present",
+    timeline: "Freelance, January-Present",
     responsabilities:
-      "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
-    ToolsUsed: "Node, React, Solidity, Firebase ",
+    "Working on creating and funding a platform that will allow users to place hedge-styled contracts on quantifiable, time sensitive events. ",
+    ToolsUsed: "Node, React, Solidity, Firebase, TailwindCSS ",
     LessonsLearned:
-      "Sole develop Product to beta phase before gathering funding, ",
+      "Sole development for product to beta phase before gathering funding, ",
   },
   {
     id: 3,
     title: "Personal Website",
-    timeline: "June-Present",
+    timeline: "Freelance, Ongoing",
     responsabilities:
-      "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
-    ToolsUsed: "Not a ton of technical support ",
+   " Thought experiment turned actionable project when I decided to show my capabilities as a software engineer instead of just saying I am capable. ",
+    ToolsUsed: "React, Node, Firebase, TailwindCSS",
     LessonsLearned: "",
   },{
     id: 4,
@@ -79,8 +82,8 @@ export const SoftwareProjects = [
     timeline: "June-Present",
     responsabilities:
       "Lead a team of interns in developing a web product that would have allowed the everyday user to participate in `Town-Hall` style polls. Decreasing the barrier for entry in community participation.  ",
-    ToolsUsed: "Not a ton of technical support ",
-    LessonsLearned: "",
+    ToolsUsed:"React, Django, GCP, R",
+    LessonsLearned: "Focus on developing the product as much as possible before looking for funding. Good ideas are bountiful, good execution is rare.",
   },
 ];
 
@@ -90,8 +93,8 @@ export const DataAnalysis = [
     title: "Data Analysis Engineer",
     timeline: "September 2021-Present",
     responsabilities:
-      "Connected to internal API to create a python package to automate internal business procedures, performed analysis on engineering life cycle to forecast project timeline, increased SQL query runtime by up to 75% ",
-    ToolsUsed: "Python, OracleSQL, MySQL, SSMS, PowerBI, Excel",
+      "Python package to automate internal business procedures, performed analysis on engineering life cycle to forecast project timeline, increased SQL query runtime by up to 75% ",
+    ToolsUsed: "Python, OracleSQL, MySQL, SSMS, PowerBI, Excel, HTTP Requests, Automation",
     LessonsLearned: "still live"
   },
   {
@@ -99,22 +102,22 @@ export const DataAnalysis = [
     title: "Manufacturing Time Studies",
     timeline: "June-Present",
     responsabilities:
-      "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
-    ToolsUsed: "Node, React, Solidity, Firebase ",
+    "Timed manufacturing assembly to brainstorm areas of improvement while trying to uncover areas that can cuase work stoppages and find projects for process improvement. ",
+    ToolsUsed: "SQL, PowerBI, Excel, Stopwatch",
     LessonsLearned:
       "Sole develop Product to beta phase before gathering funding, ",
   },
   {
     id: 3,
-    title: "Quantitative Analyst Intern",
-    timeline: "June-Present",
+    title: "Quantitative Analyst",
+    timeline: "September 2020-April 2022",
     responsabilities:
-      "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
+      "Created trading algorithms to take advantage of high market volatility, performed market research on benefits of tail risk hedging over machine learning.",
     ToolsUsed: "Not a ton of technical support ",
     LessonsLearned: "",
   },{
     id: 4,
-    title: "",
+    title: "Analytics Administrator",
     timeline: "September 2021-Present",
     responsabilities:
       "Connected to internal API to create a python package to automate internal business procedures, performed analysis on engineering life cycle to forecast project timeline, increased SQL query runtime by up to 75% ",
@@ -123,21 +126,12 @@ export const DataAnalysis = [
   },
   {
     id: 2,
-    title: "Manufacturing Time Studies",
+    title: "Jeromes Senior Design",
     timeline: "June-Present",
     responsabilities:
       "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
     ToolsUsed: "Node, React, Solidity, Firebase ",
     LessonsLearned:
       "Sole develop Product to beta phase before gathering funding, ",
-  },
-  {
-    id: 3,
-    title: "Personal Website",
-    timeline: "June-Present",
-    responsabilities:
-      "Developing an affiliate marketing full stack website using Node,React, Firebase, as well as an ethereum based staking pool where users can stake Eth and be rewarded in eth as well as a Hashback token ",
-    ToolsUsed: "Not a ton of technical support ",
-    LessonsLearned: "",
   },
 ];

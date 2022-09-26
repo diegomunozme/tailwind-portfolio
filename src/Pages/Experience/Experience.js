@@ -3,6 +3,7 @@ import Card from "../../Components/UI/Card";
 import ExperienceCard from "./ExperienceCard";
 import { SoftwareProjects, DataAnalysis } from "../../Assets/data";
 import Accordion from "./Accordion";
+import Carousel from "../../Components/UI/Carousel";
 const Experience = () => {
   return (
     <div className="grid grid-cols-10 col-start-2 min-h-screen">
@@ -33,7 +34,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
-      <div></div>
+      
     </div>
   );
 };

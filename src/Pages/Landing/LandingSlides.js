@@ -40,7 +40,7 @@ const LandingSlides = () => {
             ref={firstRef}
           >
             <div className=" bg-transparent cursor-pointer rounded-lg shadow-2xl hover:underline">
-              <div className="px-4 pt-2">
+              <div className="px-4 pt-2 text-center">
                 <h1 className="font-bold mt-2 text-4xl ">
                   Data Analysis Engineer
                 </h1>

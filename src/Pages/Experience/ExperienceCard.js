@@ -4,7 +4,7 @@ const ExperienceCard = (props) => {
   return (
     <a
       href="#"
-      class="flex mx-2 col-start-2 col-span-4 gap-4 items-center bg-transparent rounded-lg border shadow-md md:flex-row md:max-w-xl hover:border-black dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+      class="flex mx-2 col-start-2 col-span-4 gap-4 items-start bg-transparent rounded-lg border shadow-md md:flex-row md:max-w-xl hover:border-black dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
     >
       <img
         class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
