@@ -1,10 +1,9 @@
 export const stuffAboutMe = [
-  ,
   {
     id: 8,
     title: "Freelance Fullstack Developer",
     company:"Freelance",
-    // subTitle: "Remote, 2022-Present",
+    subTitle: "Remote, 2022-Present",
     info: "React, NodeJs, Solidity, Firebase",
   },
   {
@@ -48,6 +47,17 @@ export const stuffAboutMe = [
 ];
 
 export const SoftwareProjects = [
+ {
+    id: 0,
+    title: "General Atomics",
+    timeline: "September 2021-Present",
+    responsabilities:
+      "Created multiple full-stack applications where my responsabilities ranged from designing dotnet architecture to handle CRUM API updates from multiple databases simultaneously which involved hierarchy tree endpoints. This allowed me to visualize project wrap ups more easily, resulting in an automation project that saves hours of administrative work per engineering team per desing effort. User metrics across all sites I created averages 22 engineers per day.",
+    ToolsUsed: "Node, Vuejs, C#, Postgres, SSMS, Bitbucket, archi, Firebase, Solidity",
+    LessonsLearned:
+      " Expectations and time management rule. ",
+  } ,
+  
   {
     id: 1,
     title: "Hashback.io",
@@ -73,7 +83,7 @@ export const SoftwareProjects = [
     title: "Personal Website",
     timeline: "Freelance, Ongoing",
     responsabilities:
-   " Thought experiment turned actionable project when I decided to show my capabilities as a software engineer instead of just saying I am capable. ",
+   " You're enjoying this tool in real time! (hopefully) ",
     ToolsUsed: "React, Node, Firebase, TailwindCSS",
     LessonsLearned: "",
   },{

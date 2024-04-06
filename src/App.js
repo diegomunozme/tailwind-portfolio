@@ -9,7 +9,7 @@ import Footer from "./Pages/Footer/Footer";
 import Slider from "./Components/UI/Slider"
 const App = () => {
   return (
-    <div className=" transition bg-[#f4e5cc] dark:bg-gray-800">
+    <div className=" transition  dark:bg-gray-800 min-h-screen">
       <Router>
         <Header />
         <Routes>
@@ -17,7 +17,7 @@ const App = () => {
           <Route exact path="/Experience" element={<Experience />} />
           <Route exact path="/CoolThings" element={<Slider />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
